@@ -117,7 +117,7 @@ public class DemoIE {
 	
 	public void codeOutput(){
 		try{
-		linkPresent = driver.findElement(By.linkText("List With NYSE")).isDisplayed();
+		linkPresent = driver.findElement(By.linkText("NYSE")).isDisplayed();
 		System.out.println(linkPresent);
 		}catch (Exception e){
 			System.out.println("Error: " + e.getMessage());
